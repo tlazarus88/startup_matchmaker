@@ -1,0 +1,181 @@
+/*
+Project Name: Startup Matchmaker
+Author: Trevor Lazarus
+Front End Developer @GA in NYC
+*/
+a {
+	text-decoration: none;
+}
+/*a:link {
+	color: white;
+}
+a:visited {
+	color: white;
+}
+a:hover {
+	color: white;
+}
+a:active {
+	color: white;
+}*/
+header {
+	background-color: #000;
+	border-bottom: medium solid #fdf731;
+	overflow: hidden;
+}
+h1.logo {
+	font-family: 'Merriweather', serif;
+	font-size: 30px;
+	font-weight: 700;
+	color: #fdf731;
+	float: left;
+	padding: 10px 50px;
+}
+h1.logo a:link {
+	color: #fdf731;
+}
+h1.logo a:visited {
+	color: #fdf731;
+}
+h1.logo a:hover {
+	color: #fdf731;
+}
+h1.logo a:active {
+	color: #fdf731;
+}
+nav {
+	float: right;
+	margin: 15px 50px 15px 0px;
+}
+nav ul {
+	float:right;
+}
+nav ul li {
+	font-size: 20px;
+	color: white;
+	display: inline;
+	padding: 15px 10px;
+}
+nav ul li a:link {
+	color: white;
+}nav ul li a:visited {
+	color: white;
+}nav ul li a:hover {
+	color: #fdf731;
+}
+nav ul li a:active {
+	color: white;
+}
+nav ul li.users {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+}
+nav ul li.services {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+}
+nav ul li.active {
+	background-color: rgba(255,255,255,.50);
+}
+.motto {
+	background-color: #c6c6c6;
+	text-align: center;
+	padding: 20px 0px;
+}
+h2 {
+	font-size: 25px;
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	color: black;
+}
+.motto h2 {
+	font-weight: 700;
+	font-style: italic;
+	/* is there a way to combine the italic into the font-weight attribute or does it need a separate font-style attribute? */
+}
+.line-through {
+	text-decoration: line-through;
+	color: rgba(0,0,0,.25)
+}
+.underline {
+	border-bottom: solid 3px #fdf731;
+}
+.splash-image {
+	background-image: url("../images/coworking.jpg");
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	min-height: 400px;
+}
+.splash-overlay {
+	background-color: rgba(255,255,255,.85);
+	float: right;
+	margin: 50px;
+	padding: 40px;
+	width: 470px;
+	text-align: center;
+	box-shadow: 0px 0px 5px rgba(0,0,0,.85);
+}
+.splash-overlay h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	font-color: black;
+	text-align: left;
+}
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	font-color: black;
+	margin: 8px 0px 40px 0px;
+	text-align: left;
+	line-height: 36px;
+}
+a.button { 
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	font-color: black;
+	text-align: center;
+	text-decoration: none;
+	box-shadow: 0px 3px 5px rgba(0,0,0,.35);
+	border-style: none;
+	border-radius: 5px;
+}
+a.button:link {
+	color: black;
+}
+a.button:visited {
+	color: black;
+}
+a.button:hover {
+	color: black;
+}
+a.button:active {
+	color: black;
+}
+.splash-overlay a.button {
+	background-color: #fdf731;
+	padding: 10px 122px;
+}
+footer {
+	background-color: black;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	overflow: hidden;
+	clear: both;
+}
+footer p {
+	padding: 10px 50px;
+	float: left;
+	color: white;
+}
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
